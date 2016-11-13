@@ -1,0 +1,35 @@
+<resources>
+
+    <color name="white">#00ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#0000ff</color>
+
+    <color name="default_text">#000000</color>
+
+    <color name="bg_color">#E7F6FF</color>
+
+    <color name="bg_list_1">#E7F6FF</color>
+    <color name="bg_list_2">#D3EAF7</color>
+    <color name="bg_list_3">#43AEF1</color>
+
+    <color name="calendar_color_work">#ED3422</color>
+    <color name="calendar_color_entertainment">#5BC200</color>
+    <color name="calendar_color_spiritual">#000000</color>
+    <color name="calendar_color_charity">#FF53EC</color>
+    <color name="calendar_color_civic">#FF6326</color>
+    <color name="calendar_color_facebook">#3D65C0</color>
+    <color name="calendar_color_other">#929292</color>
+    <color name="calendar_color_priority">#FFEA02</color>
+
+    <color name="date_number">#636363</color>
+    <color name="date_number_disabled">#a1d7f8</color>
+    <color name="date_number_selected">#4d7590</color>
+    <color name="bg_list_4">#4d7590</color>
+
+    <color name="main_bg_color">#2570ad</color>
+
+
+
+
+</resources>

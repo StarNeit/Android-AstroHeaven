@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.DeviceDefault.Light.NoActionBar"></style>
+
+    <!-- Main application theme. -->
+    <style name="AppThemeMain" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>"
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="NormalEditText">
+        <item name="android:background">@drawable/register_textfill</item>
+        <item name="android:drawablePadding">@dimen/border_margin_smallest</item>
+        <item name="android:padding">@dimen/border_margin_smaller</item>
+        <item name="android:textColor">@color/default_text</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+    <style name="NormalEditText2">
+        <item name="android:drawablePadding">@dimen/border_margin_smallest</item>
+        <item name="android:padding">@dimen/border_margin_smaller</item>
+        <item name="android:textColor">@color/default_text</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="MyInfoAppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/main_bg_color</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:background">@color/main_bg_color</item>
+    </style>
+</resources>

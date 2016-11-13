@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:expandable="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#449884"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sidemenu_home"
+                android:src="@drawable/btn_leftmenu_home"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView7"
+                android:src="@drawable/line_left"
+                android:adjustViewBounds="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sidemenu_create_chart"
+                android:src="@drawable/btn_leftmenu_create_chart"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView8"
+                android:src="@drawable/line_left"
+                android:adjustViewBounds="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sidemenu_saved_chart"
+                android:src="@drawable/btn_leftmenu_saved_chart"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView9"
+                android:src="@drawable/line_left"
+                android:adjustViewBounds="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sidemenu_transit"
+                android:src="@drawable/btn_leftmenu_transit"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView10"
+                android:src="@drawable/line_left"
+                android:adjustViewBounds="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sidemenu_settings"
+                android:src="@drawable/btn_leftmenu_settings"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView11"
+                android:src="@drawable/line_left"
+                android:adjustViewBounds="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sidemenu_help"
+                android:src="@drawable/btn_leftmenu_help"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView12"
+                android:src="@drawable/line_left"
+                android:adjustViewBounds="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sidemenu_contact"
+                android:src="@drawable/btn_leftmenu_contact"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/line_left"
+                android:adjustViewBounds="true" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sidemenu_like"
+                android:src="@drawable/btn_leftmenu_rate"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
